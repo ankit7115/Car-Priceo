@@ -14,7 +14,7 @@ SECRET_KEY = "django-insecure-199#&xza)++=$&=7r9q+5@po&$oehk_b@(&7)&m4p#+rxz^q^^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['10.0.2.2','127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -113,6 +113,6 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-REST_FRAMEWORK = {
-    'DEFAULT_RENDERER_CLASSES' : ('rest_framework.renderers.JSONRenderer',)
-}
+# REST_FRAMEWORK = {
+#     'DEFAULT_RENDERER_CLASSES' : ('rest_framework.renderers.JSONRenderer',)
+# }

@@ -22,7 +22,7 @@ def receive_data(request):
                                                      columns = ['name','company','year','kms_driven','fuel_type']))
         # Assuming processed_data is a NumPy array or a Pandas Series, convert it to a scalar
         prediction_result = processed_data[0]
-
+        # print(type([processed_data[0]]))
         # Send the processed data back to Flutter
         return JsonResponse({'predictionResult': prediction_result})
 

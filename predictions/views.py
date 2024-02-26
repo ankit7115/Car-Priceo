@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 import pickle
 
-model = pickle.load(open("/Users/ankitsrivastava/ImpFolders/flutter_project/MyCar_dtcom/connectdjango/backend/prediction_model/LinearRegressionModel.pkl",'rb'))
+model = pickle.load(open("prediction_model/LinearRegressionModel.pkl",'rb'))
 
 
 @csrf_exempt

@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget{
     home: AnimatedSplashScreen(
       backgroundColor: const Color.fromRGBO(101, 140, 187, 1),
       splashTransition: SplashTransition.scaleTransition,
-      duration: 4000,
+      duration: 2000,
       splash: Splash1(),
       nextScreen: SafeArea(child: Starter1()),
     ),

@@ -8,13 +8,6 @@ class Splash1 extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        Expanded(
-          child: Image.asset('assets/images/logo.png',
-              color: const Color.fromRGBO(255, 255, 255, 1),
-              height : 500,
-              width: 100,
-              fit: BoxFit.fill),
-        ),
         const Text(
           "Car Priceo",
           style: TextStyle(

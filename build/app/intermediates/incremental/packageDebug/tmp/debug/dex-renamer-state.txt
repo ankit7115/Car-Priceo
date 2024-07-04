@@ -1,0 +1,7 @@
+#Sun Jun 02 13:12:54 IST 2024
+base.0=/Users/ankitsrivastava/ImpFolders/GItFlutter_proj/MyCar_dtcom/connectdjango/backend/show_car(Frontend)/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+base.1=/Users/ankitsrivastava/ImpFolders/GItFlutter_proj/MyCar_dtcom/connectdjango/backend/show_car(Frontend)/build/app/intermediates/dex/debug/mergeDexDebug/classes2.dex
+path.0=classes.dex
+path.1=classes2.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

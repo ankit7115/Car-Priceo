@@ -23,12 +23,12 @@ class _Starter1State extends State<Starter1> {
   ];
   List<String> title = [
     "Welcome To Car Priceo",
-    "Get Car Price Easly",
+    "Get Car Price Easily",
     "Car Features"
   ];
   List<String> discription = [
-    "Car Priceo is AI based car price predition mobile app that will predict your old car current market price with the highest accurency",
-    "Get the best price prediction for your car  just from your phone",
+    "Car Priceo is AI based car price prediction mobile app that will predict your old car current market price with the highest accuracy",
+    "Get the best price prediction for your car just from your phone",
     "Entering all features in the features form will increase the chance of getting exact prediction for your car price"
   ];
 
